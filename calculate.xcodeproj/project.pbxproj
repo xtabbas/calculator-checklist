@@ -9,21 +9,79 @@
 /* Begin PBXBuildFile section */
 		865F3DE722DD4CC400A367D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865F3DE622DD4CC400A367D4 /* AppDelegate.swift */; };
 		865F3DE922DD4CC400A367D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865F3DE822DD4CC400A367D4 /* SceneDelegate.swift */; };
-		865F3DEB22DD4CC400A367D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865F3DEA22DD4CC400A367D4 /* ContentView.swift */; };
 		865F3DED22DD4CC500A367D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 865F3DEC22DD4CC500A367D4 /* Assets.xcassets */; };
 		865F3DF022DD4CC500A367D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 865F3DEF22DD4CC500A367D4 /* Preview Assets.xcassets */; };
 		865F3DF322DD4CC500A367D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 865F3DF122DD4CC500A367D4 /* LaunchScreen.storyboard */; };
+		866229B622DE47B8006DDA0F /* TitilliumWeb-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 866229B122DE477F006DDA0F /* TitilliumWeb-Black.ttf */; };
+		866229B722DE47BB006DDA0F /* TitilliumWeb-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 866229B322DE4780006DDA0F /* TitilliumWeb-Bold.ttf */; };
+		866229B822DE47BE006DDA0F /* TitilliumWeb-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 866229AF22DE477F006DDA0F /* TitilliumWeb-BoldItalic.ttf */; };
+		866229B922DE47C0006DDA0F /* TitilliumWeb-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 866229AD22DE477F006DDA0F /* TitilliumWeb-ExtraLight.ttf */; };
+		866229BA22DE47C3006DDA0F /* TitilliumWeb-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 866229AE22DE477F006DDA0F /* TitilliumWeb-ExtraLightItalic.ttf */; };
+		866229BB22DE47C5006DDA0F /* TitilliumWeb-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 866229B222DE477F006DDA0F /* TitilliumWeb-Light.ttf */; };
+		866229BC22DE47C8006DDA0F /* TitilliumWeb-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 866229B422DE4780006DDA0F /* TitilliumWeb-LightItalic.ttf */; };
+		866229BD22DE47CA006DDA0F /* TitilliumWeb-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 866229AB22DE477F006DDA0F /* TitilliumWeb-Regular.ttf */; };
+		866229BE22DE47CD006DDA0F /* TitilliumWeb-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 866229B022DE477F006DDA0F /* TitilliumWeb-RegularItalic.ttf */; };
+		866229BF22DE47CF006DDA0F /* TitilliumWeb-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 866229B522DE4780006DDA0F /* TitilliumWeb-SemiBold.ttf */; };
+		866229C022DE47D2006DDA0F /* TitilliumWeb-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 866229AC22DE477F006DDA0F /* TitilliumWeb-SemiBoldItalic.ttf */; };
+		86F94FA522E0CFF4006A5583 /* CheckList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F94FA422E0CFF4006A5583 /* CheckList.swift */; };
+		86F94FA722E0D025006A5583 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F94FA622E0D025006A5583 /* Buttons.swift */; };
+		86F94FA922E0D0A7006A5583 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F94FA822E0D0A7006A5583 /* ProgressBar.swift */; };
+		86F94FAB22E0D0E4006A5583 /* NavigationTabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F94FAA22E0D0E4006A5583 /* NavigationTabs.swift */; };
+		86F94FAD22E0D10B006A5583 /* GrandTotal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F94FAC22E0D10B006A5583 /* GrandTotal.swift */; };
+		8A0AFB6522F5816D0073BF23 /* ItemProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0AFB6422F5816D0073BF23 /* ItemProfile.swift */; };
+		8A0AFB6722F581C90073BF23 /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0AFB6622F581C90073BF23 /* Keyboard.swift */; };
+		8A0AFB6922F5826D0073BF23 /* ListNProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0AFB6822F5826D0073BF23 /* ListNProgress.swift */; };
+		8A0AFB6B22F595B50073BF23 /* NavigationBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0AFB6A22F595B50073BF23 /* NavigationBackButton.swift */; };
+		8A0AFB6D22F5A2B10073BF23 /* ProgressSpur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0AFB6C22F5A2B10073BF23 /* ProgressSpur.swift */; };
+		8A3F7A0C22F4B8F4007F8260 /* UIStateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3F7A0B22F4B8F4007F8260 /* UIStateModel.swift */; };
+		8A3F7A0E22F4B92C007F8260 /* CustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3F7A0D22F4B92C007F8260 /* CustomSegue.swift */; };
+		8A3F7A1022F4B976007F8260 /* Canvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3F7A0F22F4B976007F8260 /* Canvas.swift */; };
+		8A3F7A1322F4BB0F007F8260 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3F7A1222F4BB0F007F8260 /* Navigation.swift */; };
+		8A6C626622FB017F00305E11 /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6C626522FB017F00305E11 /* Animations.swift */; };
+		8A8B9FDB22F2298900ABF295 /* Groups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8B9FDA22F2298900ABF295 /* Groups.swift */; };
+		8AE698A422F2CC7E004C3136 /* Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE698A322F2CC7E004C3136 /* Input.swift */; };
+		8AF1CA3A22FF650100BEB62E /* CheckListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF1CA3922FF650100BEB62E /* CheckListItem.swift */; };
+		8AF1CA3C22FF656900BEB62E /* CheckListUIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF1CA3B22FF656900BEB62E /* CheckListUIKit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		865F3DE322DD4CC400A367D4 /* calculate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calculate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		865F3DE622DD4CC400A367D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		865F3DE822DD4CC400A367D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		865F3DEA22DD4CC400A367D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		865F3DEC22DD4CC500A367D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		865F3DEF22DD4CC500A367D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		865F3DF222DD4CC500A367D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		865F3DF422DD4CC500A367D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		866229AB22DE477F006DDA0F /* TitilliumWeb-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Regular.ttf"; sourceTree = "<group>"; };
+		866229AC22DE477F006DDA0F /* TitilliumWeb-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		866229AD22DE477F006DDA0F /* TitilliumWeb-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-ExtraLight.ttf"; sourceTree = "<group>"; };
+		866229AE22DE477F006DDA0F /* TitilliumWeb-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		866229AF22DE477F006DDA0F /* TitilliumWeb-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-BoldItalic.ttf"; sourceTree = "<group>"; };
+		866229B022DE477F006DDA0F /* TitilliumWeb-RegularItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-RegularItalic.ttf"; sourceTree = "<group>"; };
+		866229B122DE477F006DDA0F /* TitilliumWeb-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Black.ttf"; sourceTree = "<group>"; };
+		866229B222DE477F006DDA0F /* TitilliumWeb-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Light.ttf"; sourceTree = "<group>"; };
+		866229B322DE4780006DDA0F /* TitilliumWeb-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Bold.ttf"; sourceTree = "<group>"; };
+		866229B422DE4780006DDA0F /* TitilliumWeb-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-LightItalic.ttf"; sourceTree = "<group>"; };
+		866229B522DE4780006DDA0F /* TitilliumWeb-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-SemiBold.ttf"; sourceTree = "<group>"; };
+		86F94FA422E0CFF4006A5583 /* CheckList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckList.swift; sourceTree = "<group>"; };
+		86F94FA622E0D025006A5583 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
+		86F94FA822E0D0A7006A5583 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		86F94FAA22E0D0E4006A5583 /* NavigationTabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTabs.swift; sourceTree = "<group>"; };
+		86F94FAC22E0D10B006A5583 /* GrandTotal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrandTotal.swift; sourceTree = "<group>"; };
+		8A0AFB6422F5816D0073BF23 /* ItemProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemProfile.swift; sourceTree = "<group>"; };
+		8A0AFB6622F581C90073BF23 /* Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = "<group>"; };
+		8A0AFB6822F5826D0073BF23 /* ListNProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNProgress.swift; sourceTree = "<group>"; };
+		8A0AFB6A22F595B50073BF23 /* NavigationBackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBackButton.swift; sourceTree = "<group>"; };
+		8A0AFB6C22F5A2B10073BF23 /* ProgressSpur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressSpur.swift; sourceTree = "<group>"; };
+		8A3F7A0B22F4B8F4007F8260 /* UIStateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStateModel.swift; sourceTree = "<group>"; };
+		8A3F7A0D22F4B92C007F8260 /* CustomSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegue.swift; sourceTree = "<group>"; };
+		8A3F7A0F22F4B976007F8260 /* Canvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Canvas.swift; sourceTree = "<group>"; };
+		8A3F7A1222F4BB0F007F8260 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
+		8A6C626522FB017F00305E11 /* Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
+		8A8B9FDA22F2298900ABF295 /* Groups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Groups.swift; sourceTree = "<group>"; };
+		8AE698A322F2CC7E004C3136 /* Input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Input.swift; sourceTree = "<group>"; };
+		8AF1CA3922FF650100BEB62E /* CheckListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListItem.swift; sourceTree = "<group>"; };
+		8AF1CA3B22FF656900BEB62E /* CheckListUIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListUIKit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +116,13 @@
 			children = (
 				865F3DE622DD4CC400A367D4 /* AppDelegate.swift */,
 				865F3DE822DD4CC400A367D4 /* SceneDelegate.swift */,
-				865F3DEA22DD4CC400A367D4 /* ContentView.swift */,
+				8A8B9FDA22F2298900ABF295 /* Groups.swift */,
+				8A3F7A0922F4B81C007F8260 /* View Builders */,
+				8A3F7A1122F4BAC5007F8260 /* View Groups */,
+				86F94FA322E0CFD7006A5583 /* View Molecules */,
+				8A3F7A0A22F4B8AB007F8260 /* Models */,
+				8A6C626422FB013500305E11 /* Animations */,
+				867F048222DE402C00196B6F /* Resources */,
 				865F3DEC22DD4CC500A367D4 /* Assets.xcassets */,
 				865F3DF122DD4CC500A367D4 /* LaunchScreen.storyboard */,
 				865F3DF422DD4CC500A367D4 /* Info.plist */,
@@ -73,6 +137,77 @@
 				865F3DEF22DD4CC500A367D4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		867F048222DE402C00196B6F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				866229B122DE477F006DDA0F /* TitilliumWeb-Black.ttf */,
+				866229B322DE4780006DDA0F /* TitilliumWeb-Bold.ttf */,
+				866229AF22DE477F006DDA0F /* TitilliumWeb-BoldItalic.ttf */,
+				866229AD22DE477F006DDA0F /* TitilliumWeb-ExtraLight.ttf */,
+				866229AE22DE477F006DDA0F /* TitilliumWeb-ExtraLightItalic.ttf */,
+				866229B222DE477F006DDA0F /* TitilliumWeb-Light.ttf */,
+				866229B422DE4780006DDA0F /* TitilliumWeb-LightItalic.ttf */,
+				866229AB22DE477F006DDA0F /* TitilliumWeb-Regular.ttf */,
+				866229B022DE477F006DDA0F /* TitilliumWeb-RegularItalic.ttf */,
+				866229B522DE4780006DDA0F /* TitilliumWeb-SemiBold.ttf */,
+				866229AC22DE477F006DDA0F /* TitilliumWeb-SemiBoldItalic.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		86F94FA322E0CFD7006A5583 /* View Molecules */ = {
+			isa = PBXGroup;
+			children = (
+				86F94FAA22E0D0E4006A5583 /* NavigationTabs.swift */,
+				8A0AFB6A22F595B50073BF23 /* NavigationBackButton.swift */,
+				86F94FA422E0CFF4006A5583 /* CheckList.swift */,
+				8AF1CA3922FF650100BEB62E /* CheckListItem.swift */,
+				8AF1CA3B22FF656900BEB62E /* CheckListUIKit.swift */,
+				8A0AFB6C22F5A2B10073BF23 /* ProgressSpur.swift */,
+				86F94FA822E0D0A7006A5583 /* ProgressBar.swift */,
+				8AE698A322F2CC7E004C3136 /* Input.swift */,
+				86F94FA622E0D025006A5583 /* Buttons.swift */,
+			);
+			path = "View Molecules";
+			sourceTree = "<group>";
+		};
+		8A3F7A0922F4B81C007F8260 /* View Builders */ = {
+			isa = PBXGroup;
+			children = (
+				8A3F7A0D22F4B92C007F8260 /* CustomSegue.swift */,
+				8A3F7A0F22F4B976007F8260 /* Canvas.swift */,
+			);
+			path = "View Builders";
+			sourceTree = "<group>";
+		};
+		8A3F7A0A22F4B8AB007F8260 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8A3F7A0B22F4B8F4007F8260 /* UIStateModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8A3F7A1122F4BAC5007F8260 /* View Groups */ = {
+			isa = PBXGroup;
+			children = (
+				8A3F7A1222F4BB0F007F8260 /* Navigation.swift */,
+				86F94FAC22E0D10B006A5583 /* GrandTotal.swift */,
+				8A0AFB6822F5826D0073BF23 /* ListNProgress.swift */,
+				8A0AFB6622F581C90073BF23 /* Keyboard.swift */,
+				8A0AFB6422F5816D0073BF23 /* ItemProfile.swift */,
+			);
+			path = "View Groups";
+			sourceTree = "<group>";
+		};
+		8A6C626422FB013500305E11 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				8A6C626522FB017F00305E11 /* Animations.swift */,
+			);
+			path = Animations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,9 +268,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				866229C022DE47D2006DDA0F /* TitilliumWeb-SemiBoldItalic.ttf in Resources */,
+				866229BB22DE47C5006DDA0F /* TitilliumWeb-Light.ttf in Resources */,
+				866229BD22DE47CA006DDA0F /* TitilliumWeb-Regular.ttf in Resources */,
+				866229BE22DE47CD006DDA0F /* TitilliumWeb-RegularItalic.ttf in Resources */,
+				866229B722DE47BB006DDA0F /* TitilliumWeb-Bold.ttf in Resources */,
 				865F3DF322DD4CC500A367D4 /* LaunchScreen.storyboard in Resources */,
 				865F3DF022DD4CC500A367D4 /* Preview Assets.xcassets in Resources */,
+				866229BC22DE47C8006DDA0F /* TitilliumWeb-LightItalic.ttf in Resources */,
 				865F3DED22DD4CC500A367D4 /* Assets.xcassets in Resources */,
+				866229B822DE47BE006DDA0F /* TitilliumWeb-BoldItalic.ttf in Resources */,
+				866229BA22DE47C3006DDA0F /* TitilliumWeb-ExtraLightItalic.ttf in Resources */,
+				866229B622DE47B8006DDA0F /* TitilliumWeb-Black.ttf in Resources */,
+				866229BF22DE47CF006DDA0F /* TitilliumWeb-SemiBold.ttf in Resources */,
+				866229B922DE47C0006DDA0F /* TitilliumWeb-ExtraLight.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,9 +292,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AE698A422F2CC7E004C3136 /* Input.swift in Sources */,
+				8A3F7A1022F4B976007F8260 /* Canvas.swift in Sources */,
+				86F94FAB22E0D0E4006A5583 /* NavigationTabs.swift in Sources */,
+				8A0AFB6922F5826D0073BF23 /* ListNProgress.swift in Sources */,
+				8A0AFB6B22F595B50073BF23 /* NavigationBackButton.swift in Sources */,
+				86F94FA522E0CFF4006A5583 /* CheckList.swift in Sources */,
+				8A0AFB6522F5816D0073BF23 /* ItemProfile.swift in Sources */,
+				86F94FAD22E0D10B006A5583 /* GrandTotal.swift in Sources */,
+				8A3F7A1322F4BB0F007F8260 /* Navigation.swift in Sources */,
+				8A3F7A0E22F4B92C007F8260 /* CustomSegue.swift in Sources */,
 				865F3DE722DD4CC400A367D4 /* AppDelegate.swift in Sources */,
+				8A0AFB6D22F5A2B10073BF23 /* ProgressSpur.swift in Sources */,
+				86F94FA722E0D025006A5583 /* Buttons.swift in Sources */,
+				8A3F7A0C22F4B8F4007F8260 /* UIStateModel.swift in Sources */,
 				865F3DE922DD4CC400A367D4 /* SceneDelegate.swift in Sources */,
-				865F3DEB22DD4CC400A367D4 /* ContentView.swift in Sources */,
+				8AF1CA3A22FF650100BEB62E /* CheckListItem.swift in Sources */,
+				8AF1CA3C22FF656900BEB62E /* CheckListUIKit.swift in Sources */,
+				86F94FA922E0D0A7006A5583 /* ProgressBar.swift in Sources */,
+				8A0AFB6722F581C90073BF23 /* Keyboard.swift in Sources */,
+				8A8B9FDB22F2298900ABF295 /* Groups.swift in Sources */,
+				8A6C626622FB017F00305E11 /* Animations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

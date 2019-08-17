@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  calculate
 //
-//  Created by Touqeer Abbas on 7/16/19.
-//  Copyright © 2019 Touqeer Abbas. All rights reserved.
+//  Created by xtabbas on 7/16/19.
+//  Copyright © 2019 Abbas, T. All rights reserved.
 //
 
 import UIKit
@@ -11,10 +11,11 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
         return true
     }
 

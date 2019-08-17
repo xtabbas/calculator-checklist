@@ -2,8 +2,8 @@
 //  SceneDelegate.swift
 //  calculate
 //
-//  Created by Touqeer Abbas on 7/16/19.
-//  Copyright © 2019 Touqeer Abbas. All rights reserved.
+//  Created by xtabbas on 7/16/19.
+//  Copyright © 2019 Abbas, T. All rights reserved.
 //
 
 import UIKit
@@ -22,7 +22,13 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use a UIHostingController as window root view controller
         if let windowScene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowScene)
-            window.rootViewController = UIHostingController(rootView: ContentView())
+            window.rootViewController = UIHostingController(
+                rootView:
+                    Groups()
+                        .environmentObject(UIStateModel())
+                        .environmentObject(CheckListModel())
+            )
+            
             self.window = window
             window.makeKeyAndVisible()
         }
