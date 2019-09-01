@@ -15,3 +15,4 @@ See the originial design presentation [here](https://dribbble.com/shots/4856079-
 Xcode 11.0 Beta 5+  
 Swift 5.1+
 
+PS this project must not be used commercially because the its the property of the designer (also, i have removed the opensource license after the designer expressed his concerned)
